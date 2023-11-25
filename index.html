@@ -1,10 +1,757 @@
 <html>
 	<head>
-		<title>wlcm</title>
+		<title>Know India</title>
+		<style type="text/css">
+			body{
+				background:lightgreen url('') no-repeat fixed;
+				margin:0;
+			}
+			#mainarea{
+				width:1200px;
+				height:2600px;
+				background:pink;
+				margin:0 auto;
+			}
+			#menuarea{
+				width:1200px;
+				height:50px;
+				background:green;
+			}
+			#slidearea{
+				width:1200px;
+				height:500px;
+				background:white url('bg.jpg') fixed no-repeat;
+			}
+			#s1{
+				width:400px;
+				height:200px;
+				background:rgb(250,250,250,60%);
+				float:left;
+				margin-top:230px;
+				margin-left:400px;
+				margin-bottom:70px;
+				text-align:center;
+				font-family:arial;
+				border-radius:20px;
+			}
+			#s1 p{
+				color:#000080;
+				font-size:20px;
+			}
+			#s1 h1{
+				margin:0;
+				font-size:40px;
+				color:rgb(255,255,255);
+				text-shadow:1px 10px 6px rgba(0, 0, 128,0.6);;
+			}
+			#s1 a:link,#s1 a:visited{
+				color:white;
+				background:green;
+				text-decoration:none;
+				padding:6px 10px;
+				border-radius:20px;
+			}
+			#s1 a:hover{
+				color:lightgreen;
+				background:green;
+				text-decoration:;
+			}
+			#listarea{
+				width:900px;
+				height:260px;
+				background:#fff;
+				padding: 70px 150px;
+			}
+			.list{
+				width:900px;
+				height:120px;
+				background:green;
+				margin-bottom:20px;
+			}
+			.l1{
+				width:300px;
+				height:120px;
+				background:#fff;
+				float:left;
+				text-align:center;
+			}
+			.l1 h4{
+				margin:0;
+				color:#000080;
+				font-family:arial;
+			}
+			.l1 h4:hover{
+				color:red;
+			}
+			#carea{
+				width:1200px;
+				height:700px;
+				background:white;
+			}
+			#clogoarea{
+				width:1200px;
+				height:30px;
+				background:white;
+			}
+			#clogo{
+				width:60px;
+				height:60px;
+				background:green;
+				margin:-30px 570px;
+				float:left;
+				border-radius:50%;
+			}
+			#chead{
+				width:1200px;
+				height:50px;
+				background:white;
+				font-family:arial;
+				padding-top:40px;
+			}
+			#chead h2{
+				margin:0;
+				text-align:center;
+				color:darkgreen;
+			}
+			#cbody{
+				width:1080px;
+				height:500px;
+				background:green;
+				margin:25px 50px;
+			}
+			#cbody1{
+				width:538px;
+				height:500px;
+				background:#fff;
+				float:left;
+				border-right:solid 2px #000;
+			}
+			.cb1{
+				width:450px;
+				height:480px;
+				background:#fff;
+				margin:10px 44px;
+			}
+			.cc1{
+				width:450px;
+				height:100px;
+				background:#fff;
+				text-align:center;
+				padding-bottom:10px;
+			}
+			.cc1 h1{
+				margin:0;
+				font-size:px;
+				font-family:arial;
+				color:orange;
+				letter-spacing:1px;
+			}
+			.cc1 p{
+				margin:0;
+				font-size:18px;
+				font-family:arial;
+				color:#000080;
+			}
+			.cc2{
+				width:450px;
+				height:230px;
+				background:green;
+				border-radius:10px;
+			}
+			.cc22{
+				width:440px;
+				height:220px;
+				background:#fff;
+				margin:5px;
+				float:left;
+			}
+			.cc3{
+				width:450px;
+				height:150px;
+				background:gold;
+			}
+			.cc33{
+				width:150px;
+				height:150px;
+				background:#fff;	
+				float:left;			
+			}
+			#c1{
+				width:100px;
+				height:100px;
+				background: url('https://knowindia.india.gov.in/assets/images/img-micro-presidents-address-id.png') no-repeat scroll;
+				background-size:cover;
+				border-radius:50%;
+				margin-top:10px;
+				margin-left:15px;
+				margin-right:15px;
+				border:groove 1px orange;
+			
+			}
+			#c2{
+				width:100px;
+				height:100px;
+				background: url('https://knowindia.india.gov.in/assets/images/pm.png') no-repeat scroll;
+				background-size:cover;
+				border-radius:50%;
+				margin-top:10px;
+				margin-left:15px;
+				margin-right:15px;
+				border:groove 1px orange;
+			
+			}
+			#c3{
+				width:100px;
+				height:100px;
+				background: url('https://knowindia.india.gov.in/assets/images/img-micro-photo-gallery.png') no-repeat scroll;
+				background-size:cover;
+				border-radius:50%;
+				margin-top:10px;
+				margin-left:15px;
+				margin-right:15px;
+				border:groove 1px orange;
+			
+			}
+			.cc332{
+				width:150px;
+				height:20px;
+				background:white;
+				text-align:center;
+			}
+			.cc332 h4{
+				margin:0;
+			}
+			#cbody2{
+				width:540px;
+				height:500px;
+				background:white;
+				float:left;
+			}
+			.cb2{
+				width:450px;
+				height:480px;
+				background:#fff;
+				margin:10px 45px;
+			}
+			#c4{
+				width:100px;
+				height:100px;
+				background: url('https://knowindia.india.gov.in/assets/images/img-micro-awards-winners.png') no-repeat scroll;
+				background-size:cover;
+				border-radius:50%;
+				margin-top:10px;
+				margin-left:15px;
+				margin-right:15px;
+				border:groove 1px orange;
+			
+			}
+			#c5{
+				width:100px;
+				height:100px;
+				background: url('https://knowindia.india.gov.in/assets/images/img-micro-republic-of-india.png') no-repeat scroll;
+				background-size:cover;
+				border-radius:50%;
+				margin-top:10px;
+				margin-left:15px;
+				margin-right:15px;
+				border:groove 1px orange;
+			
+			}
+			#c6{
+				width:100px;
+				height:100px;
+				background: url('https://knowindia.india.gov.in/assets/images/img-micro-celebrations.png') no-repeat scroll;
+				background-size:cover;
+				border-radius:50%;
+				margin-top:10px;
+				margin-left:15px;
+				margin-right:15px;
+				border:groove 1px orange;	
+			
+			}
+			#imgarea{
+				width:1200px;
+				height:480px;
+				background:#fff;
+			}
+			#clogoarea{
+				width:1200px;
+				height:30px;
+				background:lightgreen;
+			}
+			#clogo{
+				width:60px;
+				height:60px;
+				background:green;
+				margin:-30px 570px;
+				float:left;
+				border-radius:50%;
+			}
+			#imghead{
+				width:1200px;
+				height:50px;
+				background:#fff;
+				font-family:arial;
+				padding-top:50px;
+				padding-bottom:0px;
+			}
+			#imghead h1{
+				margin:0;
+				font-size:px;
+				font-family:arial;
+				color:darkgreen;
+				letter-spacing:1px;
+				text-align:center;
+			}
+			.imgdata{
+				width:250px;
+				height:300px;
+				background:orange;
+				float:left;
+				margin:50px 25px ;
+				border-radius:10px;
+			}
+			.imgdata1{
+				width:240px;
+				height:190px;
+				background:white;
+				margin:5px;
+			}
+			.imgdata2{
+				width:240px;
+				height:90px;
+				background:;
+				margin:5px;
+				text-align:center;
+			}
+			.imgdata2 a:link,.imgdata2 a:visited{
+				text-decoration:none;
+				color:#FF8C00;
+				background:white;
+				border-radius:20px;
+				padding:5px 15px;
+			
+			}
+			.imgdata2 a:hover{
+				text-decoration:none;
+				text-align:center;
+				color:#FF8C00;
+				background:#fafad2;
+				border-radius:20px;
+				padding:5px 15px;
+				
+			}
+			#boxarea{
+				width:1200px;
+				height:550px;
+				background:#fafad2 url('bg1.jpg') fixed no-repeat;
+				background-size:cover;
+			}
+			#boxarea1{
+				width:1200px;
+				height:550px;
+				background:rgb(0,0,0,30%);
+			}
+			.boxhead{
+				width:1200px;
+				height:50px;
+				background:#fff;
+				font-family:arial;
+				padding-top:40px;
+			}
+			.boxhead h2{
+				margin:0;
+				text-align:center;
+				color:onyx;
+			}		
+			#box1{
+				width:1100px;
+				height:460px;
+				background:transparent;
+				float:left;
+				margin:20px 50px 20px 50px;
+			}
+			.box11{
+				width:235px;
+				height:440px;
+				background:transparent;
+				margin:10px 20px;
+				float:left;
+				text-align:center;
+			}
+			.box11 ul{
+				list-style-type:none;
+				list-style-image:url('http://mpsckp.com/images/arr.png');
+				list-style-position:outside;
+				margin:0;
+				padding:0;
+			}
+			.box11 ul li{
+				margin:0;
+				padding:10px 25px;
+				color:white;
+				border-bottom:solid 1px rgb(255,255,255);
+			}
+			.box11 ul li h3{
+				margin:0;
+				padding:1px 6px;
+			}
+			.box11 ul li  h3 a:link,.box11 ul li a:visited{
+				color:white;
+				text-decoration:none;			
+			}
+			.box11 ul li h3 a:hover{
+				text-decoration:underline;				
+			}
+			#footerarea{
+				width:1200px;
+				height:200px;
+				background:#fafad2;
+			}
+			
+		</style>
 	</head>
 	<body>
-		<h1>Git Desktop</h1>
-		<h2>Anydesk</h2>
-		<h3>Git Commands</h3>
+		<div id="mainarea">
+			<div id="menuarea">
+			</div>
+			<div id="slidearea">
+				<div id="s1">
+
+					<div id="s11">
+						<h1>77<sup>th </sup>Independence Day Celebration</h1>
+						<p>15<sup>th</sup>August 2023</p>
+						<a href="" target="">View More</a>
+					</div>
+				
+				</div>
+			</div>
+			<div id="listarea">
+				<div class="list">
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l1.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>Profile</h4>						
+					</div>
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l2.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>National Identity Elements</h4>						
+					</div>
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l3.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>States And Capitals</h4>						
+					</div>
+				</div>
+				<div class="list">
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l4.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>Districts</h4>						
+					</div>
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l5.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>My India My Pride</h4>						
+					</div>
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l6.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>General Information</h4>						
+					</div>
+				</div>
+			</div>
+			<div id="carea">
+				<div id="clogoarea">
+					<div id="clogo">
+					</div>
+				</div>
+				<div id="chead">
+					<h2>National Celebrations</h2>
+				</div>
+				<div id="cbody">
+					<div id="cbody1">
+						<div class="cb1">
+							<div class="cc1">
+								<h1>77<sup>th </sup>Independence Day Celebration</h1>
+								<p>15<sup>th</sup>August 2023</p>
+							</div>
+							<div class="cc2">
+								<div class="cc22">
+									<img src="t1.jpg" width="100%" height="100%"/>
+								</div>
+							</div>
+							<div class="cc3">
+								<div class="cc33">
+									<div id="c1">
+									</div>
+									<div class="cc332">
+										<h4>President</h4>
+									</div>
+								</div>
+								<div class="cc33">
+									<div id="c2">
+									</div>
+									<div class="cc332">
+										<h4>Prime Minister</h4>
+									</div>
+								</div>
+								<div class="cc33">
+									<div id="c3">
+									</div>
+									<div class="cc332">
+										<h4>Photo gallery</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="cbody2">
+						<div class="cb2">
+							<div class="cc1">
+								<h1>74<sup>th </sup>Republic Day <br/>Celebration</h1>
+								<p>26<sup>th</sup>January 2023</p>
+							</div>
+							<div class="cc2">
+								<div class="cc22">
+									<img src="republic/r2.jpg" width="100%" height="100%"/>
+								</div>
+							</div>
+							<div class="cc3">
+								<div class="cc33">
+									<div id="c4">
+									</div>
+									<div class="cc332">
+										<h4>Indian Awards</h4>
+									</div>
+								</div>
+								<div class="cc33">
+									<div id="c5">
+									</div>
+									<div class="cc332">
+										<h4>Republic Day</h4>
+									</div>
+								</div>
+								<div class="cc33">
+									<div id="c6">
+									</div>
+									<div class="cc332">
+										<h4>Photo Gallery</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			<div id="imgarea">
+					<div id="clogoarea">
+						<div id="clogo">
+						</div>
+					</div>
+					<div id="imghead">
+						<h1>Indian Culture</h1>
+					</div>
+					<div class="imgdata">
+						<div class="imgdata1">
+							<img src="f1.jpg" width="100%" height="100%"/>
+						</div>
+						<div class="imgdata2">
+								<h3>
+									Indian Cuisine
+								</h3>
+								<a href="data.html#cuisine" target="_blank">
+									View More
+								</a>
+						</div>
+					</div>
+					<div class="imgdata">
+						<div class="imgdata1">
+							<img src="d5.jpg" width="100%" height="100%"/>
+						</div>
+						<div class="imgdata2">
+								<h3>
+									Indian Dance
+								</h3>
+								<a href="data.html#dance" target="_blank">
+									View More
+								</a>
+						</div>
+					</div>
+					<div class="imgdata">
+						<div class="imgdata1">
+							<img src="t2.jpg" width="100%" height="100%"/>
+						</div>
+						<div class="imgdata2">
+								<h3>
+									Indian Monuments
+								</h3>
+								<a href="data.html#monuments" target="_blank">
+									View More
+								</a>
+						</div>
+					</div>
+					<div class="imgdata">
+						<div class="imgdata1">
+							<img src="p26.jpeg" width="100%" height="100%"/>
+						</div>
+						<div class="imgdata2">
+								<h3>
+									Photo Gallery
+								</h3>
+								<a href="gallery.html" target="_blank">
+									View More
+								</a>
+						</div>
+					</div>
+				
+			</div>
+			<div id="boxarea">
+				<div id="boxarea1">
+				<div class="boxhead">
+					<h2>States and their capitals</h2>
+				</div>
+				<div id="box1">
+					<div class="box11">
+							<ul>
+								<li>
+									<h3><a href="" target="_blank">Andhra Pradesh</a></h3>
+									<em>(Amaravati)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Arunachal Pradesh</a></h3>
+									<em>(Itanagar)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Assam</a></h3>
+									<em>(Dispur)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Bihar</a></h3>
+									<em>(Patna)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Chhattisgarh</a></h3>
+									<em>(Raipur)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Goa</a></h3>
+									<em>(Panaji)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Gujarat</a></h3>
+									<em>(Gandhinagar)</em>
+								</li>
+							</ul>
+					</div>
+					<div class="box11">
+							<ul>
+								<li>
+									<h3><a href="" target="_blank">Haryana</a></h3>
+									<em>(Chandigarh)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Himachal Pradesh</a></h3>
+									<em>(Shimla)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Jharkhand</a></h3>
+									<em>(Ranchi)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Karnataka</a></h3>
+									<em>(Bangalore)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Kerala</a></h3>
+									<em>(Thiruvananthapuram)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Madhya Pradesh</a></h3>
+									<em>(Bhopal)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Maharashtra</a></h3>
+									<em>(Mumbai)</em>
+								</li>
+							</ul>
+					</div>
+					<div class="box11">
+							<ul>
+								<li>
+									<h3><a href="" target="_blank">Manipur</a></h3>
+									<em>(Imphal)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Meghalaya</a></h3>
+									<em>(Shillong)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Mizoram</a></h3>
+									<em>(Aizawl)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Nagaland</a></h3>
+									<em>(Kohima)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Odisha</a></h3>
+									<em>(Bhubaneshwar)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Punjab</a></h3>
+									<em>(Chandigarh)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Rajasthan</a></h3>
+									<em>(Jaipur)</em>
+								</li>
+							</ul>
+					</div>
+					<div class="box11">
+							<ul>
+								<li>
+									<h3><a href="" target="_blank">Sikkim</a></h3>
+									<em>(Gangtok)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Tamil Nadu</a></h3>
+									<em>(Chennai)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Telangana</a></h3>
+									<em>(Tripura)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Tripura</a></h3>
+									<em>(Agartala)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Uttarakhand</a></h3>
+									<em>(Dehradun)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Uttar Pradesh</a></h3>
+									<em>(Lucknow)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">West Bengal</a></h3>
+									<em>(Kolkata)</em>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div id="footerarea">
+			</div>
+		</div>
 	</body>
 </html>

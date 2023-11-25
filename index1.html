@@ -1,0 +1,611 @@
+<html>
+	<head>
+		<title>Know India</title>
+		<style type="text/css">
+			body{
+				background:lightgreen url('') no-repeat fixed;
+				margin:0;
+			}
+			#mainarea{
+				width:1200px;
+				height:2800px;
+				background:pink;
+				margin:0 auto;
+			}
+			#menuarea{
+				width:1200px;
+				height:50px;
+				background:#fafad2;
+			}
+			#slidearea{
+				width:1200px;
+				height:500px;
+				background:white url('bg.jpg') fixed no-repeat;
+			}
+			#s1{
+				width:600px;
+				height:500px;
+				background:transparent;
+				float:right;
+			}
+			#s11{
+				width:400px;
+				height:200px;
+				background:rgba(255,255,255,70%);
+				float:left;
+				margin-top:280px;
+				margin-left:20px;
+				margin-bottom:20px;
+				text-align:center;
+			}
+			#s11 h1{
+				margin:0;
+				color:rgb(0,0,0,80%);
+			}
+			#s11 a:link,#s11 a:visited{
+				color:#fafad2;
+				background:rgb(144,12,52);
+				text-decoration:none;
+				padding:6px 10px;
+				border-radius:20px;
+			}
+			#s11 a:hover{
+				color:rgb(144,12,52);
+				background:#fafad2;
+				text-decoration:;
+			}
+			#listarea{
+				width:900px;
+				height:260px;
+				background:#fafad2;
+				padding: 70px 150px;
+			}
+			.list{
+				width:900px;
+				height:120px;
+				background:green;
+				margin-bottom:20px;
+			}
+			.l1{
+				width:300px;
+				height:120px;
+				background:#fafad2;
+				float:left;
+				text-align:center;
+			}
+			.l1 h4{
+				margin:0;
+				color:rgb(144,12,52);
+			}
+			.l1 h4:hover{
+				color:red;
+			}
+			#carea{
+				width:1200px;
+				height:700px;
+				background:#fff;
+			}
+			#chead{
+				width:1200px;
+				height:50px;
+				background:#fff;
+				font-family:arial;
+				border-top:solid 1px rgb(144,12,52) ;
+			}
+			#chead h2{
+				margin:;
+				text-align:center;
+				color:rgb(144,12,52);
+			}
+			#cbody{
+				width:1040px;
+				height:500px;
+				background:#fff;
+				margin:25px 80px;
+			}
+			.cbody1{
+				width:500px;
+				height:500px;
+				background:#fff;
+				float:left;
+				margin-right:20px;
+			}
+			.cbody11{
+				width:500px;
+				height:100px;
+				background:#fff;
+				text-align:center;
+			}
+			.cbody11 h1{
+				margin:0;
+				color:rgb(144,12,52);
+			}
+			.cbody11 p{
+				color:rgb(144,12,52);
+			}
+			.cbody12{
+				width:500px;
+				height:250px;
+				background:#fff;
+			}
+			.cbody13{
+				width:500px;
+				height:150px;
+				background:#fff;
+				padding-top:30px;
+			}
+			.cbody133{
+				width:125px;
+				height:150px;
+				background:white;
+				float:left;			
+			}
+			.cbody01{
+				width:100px;
+				height:100px;
+				background:#fafad2 url('https://knowindia.india.gov.in/assets/images/img-micro-presidents-address-id.png') no-repeat scroll;
+				float:left;
+				border-radius:50%;
+				margin:0px 12.5px 0px 12.5px;
+			}
+			.chover:hover{
+				box-shadow: 0px 0px 5px 5px rgba(250,250,200,0.75);
+			}
+			.cbody02{
+				width:100px;
+				height:100px;
+				background:#fafad2 url('https://knowindia.india.gov.in/assets/images/pm.png') no-repeat scroll;
+				float:left;
+				border-radius:50%;
+				margin:0px 12.5px 0px 12.5px;
+			}
+			.cbody03{
+				width:100px;
+				height:100px;
+				background:#fafad2 url('https://knowindia.india.gov.in/assets/images/img-micro-photo-gallery.png') no-repeat scroll;
+				float:left;
+				border-radius:50%;
+				margin:0px 12.5px 0px 12.5px;
+			}
+			.cbody04{
+				width:100px;
+				height:100px;
+				background:#fafad2 url('https://knowindia.india.gov.in/assets/images/img-micro-awards-winners.png') no-repeat scroll;
+				float:left;
+				border-radius:50%;
+				margin:0px 12.5px 0px 12.5px;
+			}
+			.cbody05{
+				width:100px;
+				height:100px;
+				background:#fafad2 url('https://knowindia.india.gov.in/assets/images/img-micro-photo-gallery.png') no-repeat scroll;
+				float:left;
+				border-radius:50%;
+				margin:0px 12.5px 0px 12.5px;
+			}
+			.cbody06{
+				width:100px;
+				height:100px;
+				background:#fafad2 url('https://knowindia.india.gov.in/assets/images/img-micro-republic-of-india.png') no-repeat scroll;
+				float:left;
+				border-radius:50%;
+				margin:0px 12.5px 0px 12.5px;
+			}
+			.cbody07{
+				width:100px;
+				height:100px;
+				background:#fafad2 url('https://knowindia.india.gov.in/assets/images/img-micro-celebrations.png') no-repeat scroll;
+				float:left;
+				border-radius:50%;
+				margin:0px 12.5px 0px 12.5px;
+			}
+			.cbody08{
+				width:100px;
+				height:100px;
+				background:#fafad2 url('https://knowindia.india.gov.in/assets/images/img-micro-awards-recipients.png') no-repeat scroll;
+				float:left;
+				border-radius:50%;
+				margin:0px 12.5px 0px 12.5px;
+			}
+			.cbody132{
+				width:125px;
+				height:50px;
+				float:left;
+				background:#fff;
+				text-align:center;
+			}
+			.cbody2{
+				width:500px;
+				height:500px;
+				background:orange;
+				float:left;
+				margin-left:20px;
+			}
+			#imgarea{
+				width:1200px;
+				height:400px;
+				background:#fafad2;
+			}
+			.imghead{
+				width:1200px;
+				height:50px;
+				background:#fafad2;
+				border-top:solid 1px rgb(144,12,52);
+			}
+			.imghead h2{
+				margin:0;
+				text-align:center;
+				color:rgb(144,12,52);
+				font-family:ariel;
+			}
+			.img{
+				
+			}
+			#boxarea{
+				width:1200px;
+				height:550px;
+				background:#fafad2 url('bg1.jpg') fixed no-repeat;
+				background-size:cover;
+			}
+			.boxhead{
+				width:1200px;
+				height:49px;
+				background:#fff;
+				border-top:solid 1px rgb(144,12,52);
+			}	
+			.boxhead h2{
+				color:rgb(144,12,52);
+				font-family:ariel;
+				text-align:center;
+				margin:10px;
+			}		
+			#box1{
+				width:1100px;
+				height:460px;
+				background:transparent;
+				float:left;
+				margin:20px 50px 20px 50px;
+			}
+			.box11{
+				width:235px;
+				height:440px;
+				background:transparent;
+				margin:10px 20px;
+				float:left;
+				text-align:center;
+			}
+			.box11 ul{
+				list-style-type:none;
+				list-style-image:url('http://mpsckp.com/images/arr.png');
+				list-style-position:outside;
+				margin:0;
+				padding:0;
+			}
+			.box11 ul li{
+				margin:0;
+				padding:10px 25px;
+				color:white;
+				border-bottom:solid 1px rgb(255,255,255);
+			}
+			.box11 ul li h3{
+				margin:0;
+				padding:1px 6px;
+			}
+			.box11 ul li  h3 a:link,.box11 ul li a:visited{
+				color:white;
+				text-decoration:none;			
+			}
+			.box11 ul li h3 a:hover{
+				text-decoration:underline;				
+			}
+			#footerarea{
+				width:1200px;
+				height:400px;
+				background:#fafad2;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="mainarea">
+			<div id="menuarea">
+			</div>
+			<div id="slidearea">
+				<div id="s1">
+
+					<div id="s11">
+						<h1>77<sup>th </sup>Independence Day Celebration</h1>
+						<p>15<sup>th</sup>August 2023</p>
+						<a href="" target="">View More</a>
+					</div>
+				
+				</div>
+			</div>
+			<div id="listarea">
+				<div class="list">
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l1.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>Profile</h4>						
+					</div>
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l2.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>National Identity Elements</h4>						
+					</div>
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l3.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>States And Capitals</h4>						
+					</div>
+				</div>
+				<div class="list">
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l4.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>Districts</h4>						
+					</div>
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l5.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>My India My Pride</h4>						
+					</div>
+					<div class="l1">
+						<a href="" target="_blank">
+							<img src="l6.png" width="100px" height="90px" align=""/>
+						</a>	
+						<h4>General Information</h4>						
+					</div>
+				</div>
+			</div>
+			<div id="carea">
+				<div id="chead">
+					<h2>National Celebrations</h2>
+				</div>
+				<div id="cbody">
+					<div class="cbody1">
+						<div class="cbody11">
+							<h1>77<sup>th </sup>Independence Day Celebration</h1>
+							<p>15<sup>th</sup>August 2023</p>
+						</div>
+						<div class="cbody12">
+							<img src="t1.jpg" width="100%" height="100%"/>
+						</div>
+						<div class="cbody13">
+							<div class="cbody133">
+								<a href="https://knowindia.india.gov.in/independence-day-celebration/president-speech.php" target="_blank">
+									<div class="cbody01 chover">
+									</div>
+									<div class="cbody132">
+										<h4>President</h4>
+									</div>
+								</a>
+							</div>
+							<div class="cbody133">
+								<a href="https://www.pmindia.gov.in/en/news_updates/pms-address-from-the-ramparts-of-red-fort-on-the-occasion-of-77th-independence-day/" target="_blank">
+									<div class="cbody02 chover">
+									</div>
+									<div class="cbody132">
+										<h4>Prime Minister</h4>
+									</div>
+								</a>
+							</div>
+							<div class="cbody133">
+								<a href="https://knowindia.india.gov.in/independence-day-celebration/photo-gallery.php" target="_blank">
+									<div class="cbody03 chover">
+									</div>
+									<div class="cbody132">
+										<h4>Photo Gallery</h4>
+									</div>
+								</a>
+							</div>
+							<div class="cbody133">
+								<a href="https://knowindia.india.gov.in/independence-day-celebration/awards-recipients.php" target="_blank">
+									<div class="cbody04 chover">
+									</div>
+									<div class="cbody132">
+										<h4>Awards</h4>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="cbody2">
+						<div class="cbody11">
+							<h1>74<sup>th </sup>Republic Day Celebration</h1>
+							<p>26<sup>th</sup>January 2023</p>
+						</div>
+						<div class="cbody12">
+							<img src="republic/r2.jpg" width="100%" height="100%"/>
+						</div>
+						<div class="cbody13">
+							<div class="cbody133">
+								<a href="https://knowindia.india.gov.in/republic-day-celebration/president-speech.php" target="_blank">
+									<div class="cbody05 chover">
+									</div>
+									<div class="cbody132">
+										<h4>Photo Gallery</h4>
+									</div>
+								</a>
+							</div>
+							<div class="cbody133">
+								<a href="https://knowindia.india.gov.in/republic-day-celebration/republic-of-india.php" target="_blank">
+									<div class="cbody06 chover">
+									</div>
+									<div class="cbody132">
+										<h4>Photo Gallery</h4>
+									</div>
+								</a>
+							</div>
+							<div class="cbody133">
+								<a href="https://knowindia.india.gov.in/republic-day-celebration/photo-gallery.php" target="_blank">
+									<div class="cbody07 chover">
+									</div>
+									<div class="cbody132">
+										<h4>Republic Day</h4>
+									</div>
+								</a>
+							</div>
+							<div class="cbody133">
+								<a href="https://knowindia.india.gov.in/republic-day-celebration/awards-recipients.php" target="_blank">
+									<div class="cbody08 chover">
+									</div>
+									<div class="cbody132">
+										<h4>Awards</h4>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="imgarea">
+				<div class="imghead">
+					<h2>Indian Culture</h2>
+				</div>
+			</div>
+			<div id="boxarea">
+				<div class="boxhead">
+					<h2>States and their capitals</h2>
+				</div>
+				<div id="box1">
+					<div class="box11">
+							<ul>
+								<li>
+									<h3><a href="" target="_blank">Andhra Pradesh</a></h3>
+									<em>(Amaravati)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Arunachal Pradesh</a></h3>
+									<em>(Itanagar)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Assam</a></h3>
+									<em>(Dispur)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Bihar</a></h3>
+									<em>(Patna)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Chhattisgarh</a></h3>
+									<em>(Raipur)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Goa</a></h3>
+									<em>(Panaji)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Gujarat</a></h3>
+									<em>(Gandhinagar)</em>
+								</li>
+							</ul>
+					</div>
+					<div class="box11">
+							<ul>
+								<li>
+									<h3><a href="" target="_blank">Haryana</a></h3>
+									<em>(Chandigarh)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Himachal Pradesh</a></h3>
+									<em>(Shimla)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Jharkhand</a></h3>
+									<em>(Ranchi)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Karnataka</a></h3>
+									<em>(Bangalore)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Kerala</a></h3>
+									<em>(Thiruvananthapuram)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Madhya Pradesh</a></h3>
+									<em>(Bhopal)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Maharashtra</a></h3>
+									<em>(Mumbai)</em>
+								</li>
+							</ul>
+					</div>
+					<div class="box11">
+							<ul>
+								<li>
+									<h3><a href="" target="_blank">Manipur</a></h3>
+									<em>(Imphal)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Meghalaya</a></h3>
+									<em>(Shillong)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Mizoram</a></h3>
+									<em>(Aizawl)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Nagaland</a></h3>
+									<em>(Kohima)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Odisha</a></h3>
+									<em>(Bhubaneshwar)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Punjab</a></h3>
+									<em>(Chandigarh)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Rajasthan</a></h3>
+									<em>(Jaipur)</em>
+								</li>
+							</ul>
+					</div>
+					<div class="box11">
+							<ul>
+								<li>
+									<h3><a href="" target="_blank">Sikkim</a></h3>
+									<em>(Gangtok)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Tamil Nadu</a></h3>
+									<em>(Chennai)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Telangana</a></h3>
+									<em>(Tripura)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Tripura</a></h3>
+									<em>(Agartala)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Uttarakhand</a></h3>
+									<em>(Dehradun)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">Uttar Pradesh</a></h3>
+									<em>(Lucknow)</em>
+								</li>
+								<li>
+									<h3><a href="" target="_blank">West Bengal</a></h3>
+									<em>(Kolkata)</em>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</div>
+			<div id="footerarea">
+			</div>
+		</div>
+	</body>
+</html>
