@@ -1,51 +1,67 @@
 <html>
 	<head>
-		<title>wlcm</title>
+		<title>Indian Culture</title>
 		<style type="text/css">
 			body{
-				background:lightgreen url('') top right fixed no-repeat;
+				background:#fafad2 url('') no-repeat fixed;
 				margin:0;
+			}
+			#toplogo{
+				width:150px;
+				height:100px;
+				background:#fff url('logo/b6.png');
+				background-size:cover;
+				position:fixed;
+				top:0;
+				left:180px;
+				z-index:2000;
+				box-shadow: 1px -1px 5px 5px rgba(128,128,128,0.75);
 			}
 			#mainarea{
 				width:1200px;
-				height:4850px;
-				background:gold;
+				height:3650px;
+				background:pink;
 				margin:0 auto;
 			}
 			#toparea{
 				width:1200px;
-				height:50px;
-				background:pink;
-			}
-			#toparea ul{
-				list-style-type:none;
-								
-			}
-			#toparea ul  li{
-			}
-			#toparea ul li a:link,#toparea ul li a:visited{
-				text-decoration:none;
-				color:rgb(250,250,210);
-				background:rgb(144,12,52);
-				padding:10px 15px;
-				display:block;
-			}
-			#toparea ul li a:hover{
-				text-decoration:none;
-				color:rgb(144,12,52);
-				background:rgb(250,250,210);
-				padding:10px 15px;
-
+				height:60px;
+				background:#D42755;
+				top:0;
+				position:sticky;
+				z-index:1000;
+				box-shadow: 0px -2px 5px 5px rgba(128,128,128,0.75);
 			}
 			#menuarea{
-				width:1200px;
-				height:100px;
-				background:white;
+				width:800px;
+				height:60px;
+				background:#D42755;
+				float:right;
+			}
+			#menuarea ul{
+				list-style:none;
+			}
+			#menuarea ul li{
+				float:left;
+			}
+			#menuarea ul li a:link,#menuarea ul li a:visited{
+				color:#fff;
+				background:#D42755;
+				text-decoration:none;
+				font-size:16px;
+				text-weight:;
+				padding:8px 10px;
+				display:block;
+			}
+			#menuarea ul li a:hover{
+				color:black;
+				background:;
 			}
 			#slidearea{
 				width:1200px;
-				height:600px;
-				background:rgb(144,12,52) url('e1.jpg') fixed no-repeat;
+				height:340px;
+				background:white url('food/f17.jpg') fixed no-repeat;
+				background-size:cover;
 			}
 			#darea1{
 				width:1200px;
@@ -103,6 +119,7 @@
 				background:white;
 				float:left;
 				margin:50px 25px ;
+				border-radius:10px;
 			}
 			.catdata1{
 				width:240px;
@@ -158,73 +175,17 @@
 				background:skyblue url('t1.jpg') fixed no-repeat;
 				background-size:cover;
 			}
-			#boxarea{
-				width:1200px;
-				height:550px;
-				background:#fafad2 url('m4.jpg') fixed no-repeat;
-				background-size:cover;
-			}
-			.boxhead{
-				width:1200px;
-				height:50px;
-				background:rgb(144,12,52);
-			}			
-			#box1{
-				width:1100px;
-				height:460px;
-				background:rgb(144,12,52,70%);
-				float:left;
-				margin:20px 50px 20px 50px;
-			}
-			.box11{
-				width:235px;
-				height:440px;
-				background:transparent;
-				margin:10px 20px;
-				float:left;
-				text-align:center;
-			}
-			.box11 ul{
-				list-style-type:none;
-				list-style-image:url('http://mpsckp.com/images/arr.png');
-				list-style-position:outside;
-				margin:0;
-				padding:0;
-			}
-			.box11 ul li{
-				margin:0;
-				padding:10px 25px;
-				color:white;
-				border-bottom:solid 1px rgb(250,250,210);
-			}
-			.box11 ul li:hover{
-				color:rgb(144,12,52);
-				background:white;
-			}
-			
-			.box11 ul li h3{
-				margin:0;
-				padding:1px 6px;
-			}
-			.box11 ul li  h3 a:link,.box11 ul li a:visited{
-				color:white;
-				text-decoration:none;			
-			}
-			.box11 ul li h3 a:hover{
-				color:rgb(144,12,52);
-				text-decoration:underline;				
-			}
 			
 			#maparea{
 				width:1200px;
 				height:450px;
-				background:rgb(144,12,52) url('m1.jpg') fixed;
+				background:#fafad2 url('m1.jpg') fixed;
 			
 			}
 			#map11{
 				width:1200px;
 				height:450px;
-				background:rgb(144,12,52,60%);
+				background:#fafad2;
 			}
 			#maphead{
 				width:1200px;
@@ -273,26 +234,52 @@
 			}
 			#footerarea{
 				width:1200px;
-				height:300px;
-				background:rgb(144,12,52);
+				height:500px;
+				background:white url('footer.jpg');
+				background-size:cover;
+			
+			}
+			#f1{
+				width:600px;
+				height:250px;
+				background:;
+				float:left;
+				margin:50px 100px;
+			}
+			#f1 h1{
+				text-align:center;
+				color:#fff;
+			}
+			#f1 hr{
+				width:300px;
+				height:1px;
+				background:#fff;
+			}
+			#f1 p{
+				text-align:justify;
+				color:#fff;
+				padding:0px 20px;
 			}
 		</style>
 	</head>
 	<body>
+		<div id="toplogo">
+		</div>
 		<div id="mainarea">
 			<div id="toparea">
-				<ul>
-					<li><a href="" target="#">HOME</a></li>
-					<li><a href="" target="#">ABOUT</a></li>
-					<li><a href="" target="#">GALLERY</a></li>
-					<li><a href="" target="#">CONTACT</a></li>
-				</ul>
-			</div>
-			<div id="menuarea">
+				<div id="menuarea">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="gen_info.html">General Information</a></li>
+						<li><a href="identity_elements.html">National Identity Elements</a></li>
+						<li><a href="states.html">States and Capitals</a></li>
+						<li><a href="districts.html">Districts</a></li>
+						<li><a href="myindia.html">My India my Pride</a></li>
+					</ul>
+				</div>
 			</div>
 			<div id="slidearea">
 				<div id="s1">
-					<img src="ss.jpg" width="100%" height="100%"/>
 				</div>
 			</div>
 			<div id="darea1">
@@ -512,140 +499,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="boxarea">
-				<div class="boxhead">
-				</div>
-				<div id="box1">
-					<div class="box11">
-							<ul>
-								<li>
-									<h3><a href="" target="_blank">Andhra Pradesh</a></h3>
-									<em>(Amaravati)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Arunachal Pradesh</a></h3>
-									<em>(Itanagar)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Assam</a></h3>
-									<em>(Dispur)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Bihar</a></h3>
-									<em>(Patna)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Chhattisgarh</a></h3>
-									<em>(Raipur)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Goa</a></h3>
-									<em>(Panaji)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Gujarat</a></h3>
-									<em>(Gandhinagar)</em>
-								</li>
-							</ul>
-					</div>
-					<div class="box11">
-							<ul>
-								<li>
-									<h3><a href="" target="_blank">Haryana</a></h3>
-									<em>(Chandigarh)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Himachal Pradesh</a></h3>
-									<em>(Shimla)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Jharkhand</a></h3>
-									<em>(Ranchi)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Karnataka</a></h3>
-									<em>(Bangalore)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Kerala</a></h3>
-									<em>(Thiruvananthapuram)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Madhya Pradesh</a></h3>
-									<em>(Bhopal)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Maharashtra</a></h3>
-									<em>(Mumbai)</em>
-								</li>
-							</ul>
-					</div>
-					<div class="box11">
-							<ul>
-								<li>
-									<h3><a href="" target="_blank">Manipur</a></h3>
-									<em>(Imphal)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Meghalaya</a></h3>
-									<em>(Shillong)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Mizoram</a></h3>
-									<em>(Aizawl)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Nagaland</a></h3>
-									<em>(Kohima)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Odisha</a></h3>
-									<em>(Bhubaneshwar)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Punjab</a></h3>
-									<em>(Chandigarh)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Rajasthan</a></h3>
-									<em>(Jaipur)</em>
-								</li>
-							</ul>
-					</div>
-					<div class="box11">
-							<ul>
-								<li>
-									<h3><a href="" target="_blank">Sikkim</a></h3>
-									<em>(Gangtok)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Tamil Nadu</a></h3>
-									<em>(Chennai)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Telangana</a></h3>
-									<em>(Tripura)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Tripura</a></h3>
-									<em>(Agartala)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Uttarakhand</a></h3>
-									<em>(Dehradun)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">Uttar Pradesh</a></h3>
-									<em>(Lucknow)</em>
-								</li>
-								<li>
-									<h3><a href="" target="_blank">West Bengal</a></h3>
-									<em>(Kolkata)</em>
-								</li>
-							</ul>
-					</div>
-				</div>
-			</div>
+			
 			<div id="maparea">
 				<div id="map11">
 					<div id="maphead">
@@ -717,6 +571,13 @@
 				</div>
 			</div>
 			<div id="footerarea">
+				<div id="f1">
+					<h1>About India</h1>
+					<hr/>
+					<p>
+						India is one of the oldest civilizations in the world with a kaleidoscopic variety and rich cultural heritage. It has achieved all-round socio-economic progress since Independence. As the 7th largest country in the world, India stands apart from the rest of Asia, marked off as it is by mountains and the sea, which give the country a distinct geographical entity. Bounded by the Great Himalayas in the north, it stretches southwards and at the Tropic of Cancer, tapers off into the Indian Ocean between the Bay of Bengal on the east and the Arabian Sea on the west.
+					</p>
+				</div>
 			</div>
 		</div>
 	</body>
