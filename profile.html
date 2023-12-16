@@ -3,7 +3,7 @@
 		<title>Profile</title>
 		<style type="text/css">
 			body{
-				background:#fafad2 url('') no-repeat fixed;
+				background:#fff url('') no-repeat fixed;
 				margin:0;
 			}
 			#toplogo{
@@ -19,8 +19,8 @@
 			}
 			#mainarea{
 				width:1200px;
-				height:1400px;
-				background:pink;
+				height:1200px;
+				background:#fff;
 				margin:0 auto;
 			}
 			#toparea{
@@ -61,24 +61,52 @@
 				height:340px;
 				background:white url('bg.jpg') fixed no-repeat;
 			}
-			#darea{
-				width:1200px;
-				height:500px;
-				background:white url('backgrounds/.jpeg') repeat;
+			#darea1{
+				width:1000px;
+				height:39px;
+				background:#fff;
+				margin:0px 100px;
+				text-align:center;
+				border-bottom:solid 1px #000;
+			}
+			#darea1 p{
+				margin:0;
+				padding:10px 0;
+			}
+			#darea1 a:link,#darea1 a:visited{
+				text-decoration:none;
+				color:#000;
+			}
+			#darea1 a:hover{
+				text-decoration:underline;
+			}
+			#darea2{
+				width:1000px;
+				height:600px;
+				background:#fff url('backgrounds/.jpeg') repeat;
+				margin:0px 100px;
 
 			}
-			#darea h1{
+			#darea2 h1{
 				margin:0;
+				font-family:cursive;
 				text-align:center;
-				color:maroon;
+				color:#D42755;
 				padding:20px 0px;
 			}
-			#darea p{
+			#darea2 p{
 				text-align:justify;
-				color:maroon;
-				padding:0 40px;
-				text-indent:20px;
+				color:#000;
+				padding:0 20px;
+				text-indent:0px;
 			}
+			#darea2 p:nth-child(4){
+				text-align:right;				
+			}
+			#darea2 img{
+				width:300px;
+				height:200px;
+			}	
 			#footerarea{
 				width:1200px;
 				height:500px;
@@ -87,17 +115,25 @@
 			
 			}
 			#f1{
-				width:600px;
+				width:1200px;
+				height:300px;
+				background:;
+			}
+			#f11{
+				width:650px;
 				height:250px;
 				background:;
 				float:left;
-				margin:50px 100px;
+				margin:50px 50px 0px 100px;
+				text-align:center;
 			}
-			#f1 h1{
+			#f11 h1{
+				margin:0;
 				text-align:center;
 				color:#fff;
+				font-family:cursive;
 			}
-			#f1 hr{
+			#f11 hr{
 				width:300px;
 				height:1px;
 				background:#fff;
@@ -105,10 +141,111 @@
 			#f1 p{
 				text-align:justify;
 				color:#fff;
-				padding:0px 20px;
+				padding:0px 20px 10px 20px;
 			}
+			#f11 a:link,#f11 a:visited{
+				color:#fff;
+				text-decoration:none;
+				padding:5px 15px;
+				border-radius:20px;
+				border:solid 1px #fff;
+			}
+			#f11 a:hover{
+				color:#000;
+				border:solid 1px #000;
+			}
+			#f12{
+				width:350px;
+				height:250px;
+				background:;
+				float:left;
+				margin:50px 50px 0px 0px;
+				text-align:center;
+			}
+			#f12 h1{
+				margin:0;
+				text-align:center;
+				color:#fff;
+				font-family:cursive;
+			}
+			#f12 hr{
+				width:200px;
+				height:1px;
+				background:#fff;
+			}
+			#f121{
+				width:50px;
+				height:50px;
+				color:#fff;
+				background:;
+				float:left;	
+				margin-left:70px;	
+				text-align:center;
+				margin-top:20px;
+				border-radius:100%;
+				border:solid 1px #fff;			
+			}
+			#f121:hover{
+				color:#000;
+				border:solid 1px #000;
+			}
+			#f2{
+				width:1200px;
+				height:200px;
+				background:;
+			}
+			#f21{
+				width:650px;
+				height:200px;
+				background:;
+				float:left;
+				margin:0px 50px 0px 100px;
+			}
+			#f221{
+				width:650px;
+				height:30px;
+				background:;
+				float:left;
+				margin:150px 0px 0px 0px;
+			}
+			#f221 ul{
+				list-style:none;
+				margin:0;
+				padding:0;
+			}
+			#f221 ul li{
+				float:left;
+				border-right:solid 1px #fff;
+			}
+			#f221 ul li:last-child{
+				border:none;
+			}
+			#f221 ul li a:link,#f221 ul li a:visited{
+				text-decoration:none;
+				color:#fff;
+				background:;
+				padding:0px 10px;
+				display:block;
+			}
+			#f221 ul li a:hover{
+				color:#D42755;
+			}
+			#f22{
+				width:350px;
+				height:200px;
+				background:;
+				float:left;
+				margin:0px 50px 0px 0px;
+				position:relative;
+			}
+			#f22 img{
+				position:absolute;
+				bottom:20;
+				left:100;				
+			}			
 
 		</style>
+		<link rel="stylesheet" href="css/font-awesome.css" type="text/css"/>
 	</head>
 	<body>
 		<div id="mainarea">
@@ -129,7 +266,15 @@
 			</div>
 			<div id="slidearea">
 			</div>
-			<div id="darea">
+			<div id="darea1">
+				<p>
+					<i class="fa fa-home"></i>
+					<a href="index.html">Home</a>
+					 &gt;&gt;
+					Profile
+				</p>
+			</div>
+			<div id="darea2">
 				<h1>Profile</h1>
 				<p>
 					India is one of the oldest civilizations in the world with a kaleidoscopic variety and rich cultural heritage. It has achieved all-round socio-economic progress since Independence. As the 7th largest country in the world, India stands apart from the rest of Asia, marked off as it is by mountains and the sea, which give the country a distinct geographical entity. Bounded by the Great Himalayas in the north, it stretches southwards and at the Tropic of Cancer, tapers off into the Indian Ocean between the Bay of Bengal on the east and the Arabian Sea on the west.
@@ -138,16 +283,59 @@
 				<p>
 					Lying entirely in the northern hemisphere, the mainland extends between latitudes 8° 4' and 37° 6' north, longitudes 68° 7' and 97° 25' east and measures about 3,214 km from north to south between the extreme latitudes and about 2,933 km from east to west between the extreme longitudes. It has a land frontier of about 15,200 km. The total length of the coastline of the mainland, Lakshadweep Islands and Andaman & Nicobar Islands is 7,516.6 km.		
 				</p>
+				<p>
+					Source: India Book 2020 - A Reference Annual
+				</p>
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30765865.662980683!2d61.00084967764876!3d19.729696421830837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1702026298644!5m2!1sen!2sin" width="1000" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				
 			</div>
 			<div id="footerarea">
 				<div id="f1">
-					<h1>About India</h1>
-					<hr/>
-					<p>
-						India is one of the oldest civilizations in the world with a kaleidoscopic variety and rich cultural heritage. It has achieved all-round socio-economic progress since Independence. As the 7th largest country in the world, India stands apart from the rest of Asia, marked off as it is by mountains and the sea, which give the country a distinct geographical entity. Bounded by the Great Himalayas in the north, it stretches southwards and at the Tropic of Cancer, tapers off into the Indian Ocean between the Bay of Bengal on the east and the Arabian Sea on the west.
-					</p>
+					<div id="f11">
+						<h1>About India</h1>
+						<hr/>
+						<p>
+							India is one of the oldest civilizations in the world with a kaleidoscopic variety and rich cultural heritage. It has achieved all-round socio-economic progress since Independence. As the 7th largest country in the world, India stands apart from the rest of Asia, marked off as it is by mountains and the sea, which give the country a distinct geographical entity. Bounded by the Great Himalayas in the north, it stretches southwards and at the Tropic of Cancer, tapers off into the Indian Ocean between the Bay of Bengal on the east and the Arabian Sea on the west.
+						</p>
+						<a href="profile.html">
+							Explore
+						</a>
+					</div>
+					<div id="f12">
+						<h1>Follow us</h1>
+						<hr/>
+						<a href="https://www.facebook.com/KnowIndiaPortal" target="_blank">
+							<div id="f121">
+								<i class="fa fa-facebook"></i>
+							</div>
+						</a>
+						<a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fknowindiaportal" target="_blank">
+							<div id="f121">
+								<i class="fa fa-twitter"></i>
+							</div>
+						</a>
+					</div>
 				</div>
-			</div>
+				<div id="f2">
+					<div id="f21">
+						<div id="f221">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html">Help</a></li>
+								<li><a href="index.html">Add a Favorites</a></li>
+								<li><a href="index.html">Terms of Use</a></li>
+								<li><a href="index.html">Accessibility Statement</a></li>
+								<li><a href="index.html">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="f22">
+						<a href="https://www.india.gov.in/" title="Redirects to the India's Official Website" target="_blank">
+							<img src="gov_logo.png"/>
+						</a>
+					</div>
+				</div>
 		</div>
 	</body>
 </html>
